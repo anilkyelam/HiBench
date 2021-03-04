@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #
-# Prepares sort application for running on Spark
-# Generate input data file for sort application
-# and add it to hdfs
+# Prepares HiBench application for running on Spark
+# Calls on HiBench prepare to generate input files
 #
 
 # Parse command line arguments
