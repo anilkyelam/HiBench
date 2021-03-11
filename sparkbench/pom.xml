@@ -179,7 +179,7 @@
       <activation>
         <property>
           <name>spark</name>
-          <value>3.1</value>
+          <value>local</value>
         </property>
       </activation>
     </profile>

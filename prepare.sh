@@ -57,7 +57,8 @@ fi
 # Rebuild workload type
 if [[ $REBUILD ]]; then
     pushd "$dir"
-    mvn -Psparkbench -Dmodules -P${WTYPE} -Dspark=3.1 -Dscala=2.12 clean package -nsu
+    # mvn -Psparkbench -Dspark=local -Dscala=2.12 clean package -nsu
+    mvn -Psparkbench -Dmodules -P${WTYPE} -Dspark=local -Dscala=2.12 clean package -nsu
     popd
 fi
 
